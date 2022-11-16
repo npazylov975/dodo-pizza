@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item{
+
+    display: inline-block;
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    padding: 22px 0;
+    color: black;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0 15px;
+    transition: color 0.25s ease 0s, padding 0.25s ease 0s;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.menubt {
+    width: 100px;
+    height: 25px;
+    border-radius: 15px;
+    background: orange;
+}
+
+
+.card1 {
+    background: url("https://cdn.inappstory.com/story/vvj/0ui/9hq/h1c6cadsdmtdipbifbwysi5/custom_cover/logo-350x440.jpg?v=1649329911");
+}
